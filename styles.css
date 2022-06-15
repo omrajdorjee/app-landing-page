@@ -1,0 +1,358 @@
+body {
+  background-color: rgb(204, 190, 190);
+}
+
+#title {
+  background: linear-gradient(0deg,
+      rgba(201, 72, 45, 1) 32%,
+      rgba(225, 0, 93, 1) 100%);
+}
+
+.header-top {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: black;
+  font-family: Medium 500, sans-serif;
+}
+
+p {
+  color: rgb(124, 123, 123);
+  padding: 0 35px 0;
+}
+
+.container-fluid {
+  padding: 3% 5% 15% 15%;
+}
+
+.header-row {
+  padding-top: 5%;
+  color: aliceblue;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0 4.3rem;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 40px;
+}
+
+.nav-link {
+  padding-right: 30px;
+}
+
+.download-btn {
+  margin: 15px 10px 0 0;
+  padding: 10px 15px;
+}
+
+.header-img {
+  width: 20%;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  transform: rotate(20deg);
+}
+
+#features {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-row {
+  background-color: #ffffff;
+  padding: 0% 15%;
+  margin: unset;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 200px 15px;
+  margin: 50px 0;
+}
+
+.icon {
+  color: rgb(204, 108, 84);
+  padding-bottom: 10px;
+}
+
+.feature-box,
+.icon:hover {
+  color: rgb(209, 15, 15);
+}
+
+/* testimonial SECTION*/
+#testimonials {
+  position: relative;
+  top: ;
+  text-align: center;
+  padding: 7% 15%;
+  background: linear-gradient(0deg,
+      rgb(218, 128, 110) 32%,
+      rgb(195, 91, 100) 100%);
+  color: aliceblue;
+}
+
+.testimonial-img {
+  padding: 0;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  padding: 2%;
+  border-radius: 50%;
+}
+
+#press {
+  padding: 10% 0;
+  background: #fff0f1;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 5px 30px;
+}
+
+#pricing {
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing-col {
+  width: 33%;
+  padding: 50px;
+}
+
+#cta {
+  background-color: #ffd9d9;
+  padding: 3% 0 0 0;
+}
+
+.download-btn-bottom {
+  margin: 2%;
+}
+
+footer {
+  background-color: #ffd9d9;
+  color: black;
+  padding: 10% 20% 0;
+  margin-bottom: 0;
+}
+
+footer p {
+  color: black;
+  margin: 0;
+}
+
+/* ======================= */
+/* ------pricing card------ */
+/* =========================== */
+
+h1 {
+  color: #ffffff;
+}
+
+.card-container {
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  /* background-color: rgba(0, 0, 0, 0); */
+  text-align: center;
+}
+
+.price-card-one {
+  box-sizing: border-box;
+  position: relative;
+  top: 10%;
+  display: inline-block;
+  width: auto;
+  height: 400px;
+  margin: 0 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "Lemonada", cursive;
+}
+
+.price-card-two {
+  box-sizing: border-box;
+  position: relative;
+  top: 10%;
+  display: inline-block;
+  width: auto;
+  height: 400px;
+  margin: 0 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "Lemonada", cursive;
+}
+
+.price-card-three {
+  box-sizing: border-box;
+  position: relative;
+  top: 10%;
+  display: inline-block;
+  width: auto;
+  height: 400px;
+  margin: 0 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "Lemonada", cursive;
+}
+
+.price-tag-one {
+  position: absolute;
+  bottom: 0px;
+  /* width: auto; */
+  height: 200px;
+  background-color: #e01a55;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all 200ms;
+}
+
+.price-tag-one:hover {
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  height: 195px;
+  background-color: #8b1e54ad;
+}
+
+.price-tag-two:hover {
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  height: 195px;
+  background-color: #91a71181;
+}
+
+.price-tag-three:hover {
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  height: 195px;
+  background-color: #1682ca9a;
+}
+
+.price-tag-two {
+  position: absolute;
+  bottom: 0px;
+  /* width: 250px; */
+  height: 200px;
+  background-color: #90a711;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.price-tag-three {
+  position: absolute;
+  bottom: 0px;
+  width: auto;
+  height: 200px;
+  background-color: #1682ca;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.sub-class {
+  position: relative;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 50px solid #555;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.sc-1 {
+  padding: 5px;
+  color: white;
+  width: 80px;
+  height: 0%;
+  border-bottom: 40px solid rgb(209, 79, 140);
+  border-left: 24px solid transparent;
+  border-right: 70px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.103) 0px 5px;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: -25px;
+  top: -2px;
+}
+
+.sc-2 {
+  padding: 5px;
+  color: white;
+  width: 80px;
+  height: 0%;
+  border-bottom: 40px solid rgb(193, 206, 85);
+  border-left: 24px solid transparent;
+  border-right: 70px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.082) 0px 5px;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: -25px;
+  top: -2px;
+}
+
+.sc-3 {
+  padding: 5px;
+  color: white;
+  width: 80px;
+  height: 0%;
+  border-bottom: 40px solid rgb(62, 192, 209);
+  border-left: 24px solid transparent;
+  border-right: 70px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.103) 0px 5px;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: -25px;
+  top: -1px;
+}
+
+ul {
+  margin: 70px 10px 0 40px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  font: 1px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.btn {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 2px 5px #00000086;
+}
+
+.btn:hover {
+  background-color: rgba(3, 0, 153, 0.555);
+  border: none;
+  font-size: 21px;
+  color: #ffffff;
+}
